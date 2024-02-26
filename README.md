@@ -1,7 +1,6 @@
 # spring-Boot-Open-AI-ChatGPT.
 
-This is a sample Spring Boot 3.2.3 application built with Java 17. The application consumes the OpenAI ChatGPT API to provide and delivers information to users
-
+This is an example of a Spring Boot 3.2.3 application developed using Java 17. The application utilizes the OpenAI ChatGPT API to facilitate interactive conversations and deliver information to users.
 
 ## Prerequisites
 
