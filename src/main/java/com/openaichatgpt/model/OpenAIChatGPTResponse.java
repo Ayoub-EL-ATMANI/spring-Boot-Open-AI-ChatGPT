@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ChatGPTResponse {
-    private List<ChatGptChoice> choices;
+public class OpenAIChatGPTResponse {
+    private List<OpenAIChatGptChoice> choices;
 }
 
