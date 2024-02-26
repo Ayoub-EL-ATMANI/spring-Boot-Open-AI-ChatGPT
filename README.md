@@ -11,7 +11,8 @@ This is a sample Spring Boot 3.2.3 application built with Java 17. The applicati
 
 1. Clone the repository:
 
-   git clone https://github.com/Ayoub-EL-ATMANI/spring-Boot-Open-AI-ChatGPT.git 
+   git clone https://github.com/Ayoub-EL-ATMANI/spring-Boot-Open-AI-ChatGPT.git
+   
    cd spring-Boot-Open-AI-ChatGPT
 
 ### Project Structure ###
