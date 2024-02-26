@@ -2,16 +2,18 @@ package com.openaichatgpt.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
 
 @Data
+@Builder
 public class OpenAIChatGPTRequest {
 
-    private String model = "gpt-3.5-turbo";
-    private List<Message> messages;
-    private int temperature = 1;
+    private String model;
+    private List<OpenAIMessage> messages;
+    private int temperature;
     @JsonProperty("max_tokens")
-    private int maxTokens = 100;
+    private int maxTokens;
 }

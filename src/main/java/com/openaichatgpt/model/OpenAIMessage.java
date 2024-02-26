@@ -5,10 +5,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class OpenAIMessage implements Serializable {
+public class OpenAIMessage {
 
-
-    private static final long serialVersionUID = 2405172041950251807L;
     private String role;
     private String content;
 }
